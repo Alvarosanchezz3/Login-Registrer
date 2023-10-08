@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title><link rel="stylesheet" href="css/style.css"></head>
+    <link rel="shortcut icon" href="img/users.png" type="image/x-icon">
+<body>
+    <img src="img/fondos/fondo1.jpg" alt="fondo" class="fondo">
+    <div class="login">
+        
+        <div class="inicio">
+            <h1 id="titule">Login</h1>
+            <p id="messaje">Please login to use the plattaform</p>    
+        </div>
+        
+            <div class="input-box" id="name">
+                <input type="text" placeholder="Username" id="username"> 
+                <img src="img/users.png" alt="eye-icon">    
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="Email" id="email" name="email"> 
+                <img src="img/email.png" alt="eye-icon">    
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" id="password"> 
+                <img src="img/eye-closed.png" alt="eye-icon" id="eyeIcon">       
+            </div>     
+            <div class="remember-forgot">
+                <label id="remember"><input type="checkbox">Remember me</label>
+                <a href="#" id="forgot_password">Forgot password?</a>
+            </div>
+
+            <button id="btn" href="#">Login</button>
+        <div class="registrer-link">
+            <p id="question_account">Don't have an account?<a href="#" id="registrer">Registrer</a></p>          
+        </div>
+
+        <div class="other-logs" id="other-logs">
+            <a href="#">
+                <img src="img/google.png" alt="Google">
+                <span>Login with Google</span>
+            </a>
+            <a href="#">
+                <img src="img/facebook.png" alt="facebook">
+                <span>Login with Facebook</span>
+            </a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
